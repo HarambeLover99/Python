@@ -1,0 +1,45 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+# Wed, 02 Nov 2016 10:24:01
+'t' in 'string' # includes lowercase t character
+#[Out]# True
+# Wed, 02 Nov 2016 10:24:09
+'T' in 'string' # case matters
+#[Out]# False
+# Wed, 02 Nov 2016 10:24:18
+3 in [1,2,3] # this list contains the int 3
+#[Out]# True
+# Wed, 02 Nov 2016 10:24:27
+'3' in [1,2,3] # '3' is a string, different than 3
+#[Out]# False
+# Wed, 02 Nov 2016 10:25:11
+letter_in_word('t', 'secret hangman phrase')
+# Wed, 02 Nov 2016 10:27:05
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:27:13
+letter_in_word('t', 'secret hangman phrase')
+# Wed, 02 Nov 2016 10:40:21
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:40:32
+In []: letter_in_word('t', 'secret hangman phrase')
+Out[]: True
+# Wed, 02 Nov 2016 10:41:13
+In []: letter_in_word('t', 'secret hangman phrase')
+Out[]: True
+# Wed, 02 Nov 2016 10:41:15
+letter_in_word('z', 'secret hangman phrase')
+# Wed, 02 Nov 2016 10:50:17
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:50:38
+secret = ['red','red','yellow','yellow','black']
+# Wed, 02 Nov 2016 10:50:45
+hint('red', secret)
+# Wed, 02 Nov 2016 10:51:07
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:51:28
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:52:38
+%run C:/Users/c.scully/Documents/Python/chase_scully133.py# Wed, 02 Nov 2016 10:52:42
+secret = ['red','red','yellow','yellow','black']
+# Wed, 02 Nov 2016 10:52:44
+hint('red', secret)
+# Wed, 02 Nov 2016 10:52:55
+hint('green', secret)
+# Wed, 02 Nov 2016 10:53:18
+%logstop

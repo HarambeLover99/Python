@@ -1,0 +1,276 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+# Mon, 14 Nov 2016 10:16:53
+toople
+# Mon, 14 Nov 2016 10:17:00
+tuple
+#[Out]# tuple
+# Mon, 14 Nov 2016 10:17:07
+a = (2,4,5)
+# Mon, 14 Nov 2016 10:17:10
+a
+#[Out]# (2, 4, 5)
+# Mon, 14 Nov 2016 10:17:46
+#7. Tuples
+
+# Mon, 14 Nov 2016 10:17:58
+some_values = ('a', 'b', 3)
+# Mon, 14 Nov 2016 10:18:04
+some_values
+#[Out]# ('a', 'b', 3)
+# Mon, 14 Nov 2016 10:19:21
+some_values[0]
+#[Out]# 'a'
+# Mon, 14 Nov 2016 10:19:25
+some_values[2]
+#[Out]# 3
+# Mon, 14 Nov 2016 10:19:32
+some_values[1]
+#[Out]# 'b'
+# Mon, 14 Nov 2016 10:22:18
+#7a. Its bassicaly the same as a "type" it puts the inputs in a chart that starts at 0.
+
+
+In [13]
+#[Out]# u'#7a. Its bassicaly the same as a "type" it puts the inputs in a chart that starts at 0.\n\n\nIn [13]'
+# Mon, 14 Nov 2016 10:22:26
+#7a. Its bassicaly the same as a "type" it puts the inputs in a chart that starts at 0.
+
+# Mon, 14 Nov 2016 10:23:06
+some_values[0:2]
+#[Out]# ('a', 'b')
+# Mon, 14 Nov 2016 10:23:50
+#7b. The stopping point is 2 so its right before the 3
+
+# Mon, 14 Nov 2016 10:24:32
+some_values[2] = '3'
+# Mon, 14 Nov 2016 10:25:22
+a = 10
+# Mon, 14 Nov 2016 10:25:41
+b = (9, a, 11)
+# Mon, 14 Nov 2016 10:25:42
+b
+#[Out]# (9, 10, 11)
+# Mon, 14 Nov 2016 10:25:48
+b
+#[Out]# (9, 10, 11)
+# Mon, 14 Nov 2016 10:25:56
+a = 15
+# Mon, 14 Nov 2016 10:25:58
+b
+#[Out]# (9, 10, 11)
+# Mon, 14 Nov 2016 10:27:14
+b[1] == 10
+#[Out]# True
+# Mon, 14 Nov 2016 10:27:36
+#8a. its true because 9 is 0 and 11 is 2
+
+# Mon, 14 Nov 2016 10:28:42
+values = ['a', 'b', 3]
+# Mon, 14 Nov 2016 10:29:01
+values
+#[Out]# ['a', 'b', 3]
+# Mon, 14 Nov 2016 10:29:07
+values[1]
+#[Out]# 'b'
+# Mon, 14 Nov 2016 10:29:14
+values[1:]
+#[Out]# ['b', 3]
+# Mon, 14 Nov 2016 10:29:46
+#9. its going to return b and 3 becuase 0(a) isnt apart of it and it finishes the list.
+
+# Mon, 14 Nov 2016 10:29:53
+values[2] == 3
+#[Out]# True
+# Mon, 14 Nov 2016 10:30:00
+values[2] +5
+#[Out]# 8
+# Mon, 14 Nov 2016 10:30:45
+values[2]
+#[Out]# 3
+# Mon, 14 Nov 2016 10:31:12
+#10. '3' would be false while the 3 would be true
+
+# Mon, 14 Nov 2016 10:32:33
+#10. false because your changing a variable in the tuple to a string.
+
+# Mon, 14 Nov 2016 10:32:46
+values = values + [5, 5]
+# Mon, 14 Nov 2016 10:32:49
+values = values + [4, 5]
+# Mon, 14 Nov 2016 10:32:52
+values
+#[Out]# ['a', 'b', 3, 5, 5, 4, 5]
+# Mon, 14 Nov 2016 10:33:04
+values = values - [5, 5]
+# Mon, 14 Nov 2016 10:33:06
+values
+#[Out]# ['a', 'b', 3, 5, 5, 4, 5]
+# Mon, 14 Nov 2016 10:33:29
+#11a. it adds the varibles to the list of 'values'
+
+# Mon, 14 Nov 2016 10:35:45
+values.append([6,7])
+# Mon, 14 Nov 2016 10:35:47
+values
+#[Out]# ['a', 'b', 3, 5, 5, 4, 5, [6, 7]]
+# Mon, 14 Nov 2016 10:36:44
+values[7]
+#[Out]# [6, 7]
+# Mon, 14 Nov 2016 10:36:51
+values.append(8)
+# Mon, 14 Nov 2016 10:36:53
+values
+#[Out]# ['a', 'b', 3, 5, 5, 4, 5, [6, 7], 8]
+# Mon, 14 Nov 2016 10:37:36
+#11b. the append function it to add another variable simmilar to the +. When you bracket numbers in  a list it creates a list inside of a list.
+
+# Mon, 14 Nov 2016 10:43:25
+#12 we choose the method "remove" you do your list name so, values.remove(and in this we name the variable you want removed).
+
+# Mon, 14 Nov 2016 10:44:17
+values = values + 9
+# Mon, 14 Nov 2016 10:45:06
+#13. it didnt work becuase you cant add an integer to a list you have to add a list to a list.
+
+# Mon, 14 Nov 2016 10:45:53
+values += [9,10]
+# Mon, 14 Nov 2016 10:46:00
+values
+#[Out]# ['a', 'b', 3, 5, 5, 4, 5, [6, 7], 8, 9, 10]
+# Mon, 14 Nov 2016 10:46:24
+x = 6
+# Mon, 14 Nov 2016 10:46:31
+x *= 3
+# Mon, 14 Nov 2016 10:46:33
+x
+#[Out]# 18
+# Mon, 14 Nov 2016 10:47:01
+#14 The * symbol is also used for multiplication 
+
+# Mon, 14 Nov 2016 10:48:09
+import random
+# Mon, 14 Nov 2016 10:48:25
+random.choice(values)
+#[Out]# 5
+# Mon, 14 Nov 2016 10:48:49
+random.randint(5,8)
+#[Out]# 8
+# Mon, 14 Nov 2016 10:48:57
+random.uniform(5,8)
+#[Out]# 6.103601385752735
+# Mon, 14 Nov 2016 10:49:17
+rool_two_dice()
+# Mon, 14 Nov 2016 10:49:24
+def rool_two_dice()
+# Mon, 14 Nov 2016 10:49:30
+def rool_two_dice
+# Mon, 14 Nov 2016 10:49:59
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Mon, 14 Nov 2016 10:53:02
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Mon, 14 Nov 2016 10:54:48
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Mon, 14 Nov 2016 10:55:09
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Mon, 14 Nov 2016 10:55:21
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Mon, 14 Nov 2016 10:55:33
+roll _two_dice()
+# Mon, 14 Nov 2016 10:55:40
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:48
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:49
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:50
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:50
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:50
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:51
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:51
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:52
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:52
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:52
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:53
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:53
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:53
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:53
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:54
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:54
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:54
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:54
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:54
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:55
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:55
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:55
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:55
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:55
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:56
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:56
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:56
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:57
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:57
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:57
+roll_two_dice()
+# Mon, 14 Nov 2016 10:55:57
+roll_two_dice()
+# Mon, 14 Nov 2016 10:56:21
+%logstop
+%cd "C:\Users\c.scully\Documents\Python"
+# Tue, 15 Nov 2016 10:17:11
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Tue, 15 Nov 2016 10:17:16
+guess_letter()
+# Tue, 15 Nov 2016 10:17:24
+guess_letter
+#[Out]# <function __main__.guess_letter>
+# Tue, 15 Nov 2016 10:17:26
+guess_letter()
+# Tue, 15 Nov 2016 10:17:52
+%run C:/Users/c.scully/Documents/Python/chase_scully136.py# Tue, 15 Nov 2016 10:17:54
+guess_letter()
+# Tue, 15 Nov 2016 10:18:16
+a = 'abcde'
+# Tue, 15 Nov 2016 10:18:35
+b = ('a', 'b', 'c', 'd', 'e')
+# Tue, 15 Nov 2016 10:18:56
+c= ['a', 'b', 'c', 'd', 'e']
+# Tue, 15 Nov 2016 10:19:02
+a[3]
+#[Out]# 'd'
+# Tue, 15 Nov 2016 10:19:09
+b[3]
+#[Out]# 'd'
+# Tue, 15 Nov 2016 10:19:14
+c[3]
+#[Out]# 'd'
+# Tue, 15 Nov 2016 10:21:32
+#conc1. The tupple B is the only ting tat cant change. While A and C can change with a diffrent input.
+
+# Tue, 15 Nov 2016 10:25:34
+#conc2. An example of  atupple would be a dice roller game becasue the vaules will never change. The example for a list would be names in a classroom because you can always add to it and people leave and join. 
+
+# Tue, 15 Nov 2016 10:25:38
+%logstop

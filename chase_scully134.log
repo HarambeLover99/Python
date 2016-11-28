@@ -1,0 +1,63 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+# Thu, 03 Nov 2016 10:38:56
+food_id('apple')
+# Thu, 03 Nov 2016 10:39:01
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpncskkv.py"# Thu, 03 Nov 2016 10:39:05
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpvg7rqf.py"# Thu, 03 Nov 2016 10:39:47
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpsdkucz.py"# Thu, 03 Nov 2016 10:40:28
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmp5h44fd.py"# Thu, 03 Nov 2016 10:41:41
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmp89cv9z.py"# Thu, 03 Nov 2016 10:41:46
+food_id('apple')
+#[Out]# 'NOT Citrus, Fruit'
+%cd "C:\Users\c.scully\Documents\Python"
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py
+# Mon, 07 Nov 2016 10:19:30
+guess_once()
+# Mon, 07 Nov 2016 10:22:09
+#7a. When you guess the right number it greets you with that print
+
+# Mon, 07 Nov 2016 10:22:44
+guess_once()
+# Mon, 07 Nov 2016 10:22:52
+#7a. When you guess the right number it greets you with that print
+
+# Mon, 07 Nov 2016 10:22:54
+guess_once()
+# Mon, 07 Nov 2016 10:35:57
+quiz_decimal
+# Mon, 07 Nov 2016 10:36:06
+quiz_decimal
+# Mon, 07 Nov 2016 10:36:24
+quiz_decimal(5, 9)
+# Mon, 07 Nov 2016 10:38:57
+quiz_decimal(low, high)
+# Mon, 07 Nov 2016 10:53:40
+quiz_decimal
+# Mon, 07 Nov 2016 10:53:42
+quiz_decimal(low, high)
+# Mon, 07 Nov 2016 10:53:45
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:53:56
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:54:02
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:54:12
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:54:15
+quiz_decimal
+#[Out]# <function __main__.quiz_decimal>
+# Mon, 07 Nov 2016 10:54:27
+quiz_decimal(5, 9)
+# Mon, 07 Nov 2016 10:54:48
+quiz_decimal(8.5, 9)
+# Mon, 07 Nov 2016 10:55:06
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:55:08
+quiz_decimal(8.5, 9)
+# Mon, 07 Nov 2016 10:56:08
+%run C:/Users/c.scully/Documents/Python/chase_scully134.py# Mon, 07 Nov 2016 10:56:11
+quiz_decimal(8.5, 9)
+# Mon, 07 Nov 2016 10:56:16
+quiz_decimal(8.5, 9)
+# Mon, 07 Nov 2016 10:57:52
+#2con. It makes it easier when your writing your final version because you can see all varibales needed.
+
+# Mon, 07 Nov 2016 10:58:12
+%logstop

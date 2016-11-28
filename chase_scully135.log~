@@ -1,0 +1,186 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+# Thu, 10 Nov 2016 10:13:05
+# Chase Scully 1.3.5 IPython log
+
+# Thu, 10 Nov 2016 10:14:39
+from __future__ import print_function
+# Thu, 10 Nov 2016 10:15:09
+if raw_input('One character: ') == '!':
+    print('Wow', end='!')
+    
+# Thu, 10 Nov 2016 10:18:12
+slogan = 'Blue Springs South is the best'
+# Thu, 10 Nov 2016 10:18:18
+type(slogan)
+#[Out]# str
+# Thu, 10 Nov 2016 10:18:22
+sogan
+# Thu, 10 Nov 2016 10:18:40
+slogan
+#[Out]# 'Blue Springs South is the best'
+# Thu, 10 Nov 2016 10:19:19
+number = 6,000,000
+# Thu, 10 Nov 2016 10:19:26
+type(number)
+#[Out]# tuple
+# Thu, 10 Nov 2016 10:19:43
+#6. An integer 
+
+# Thu, 10 Nov 2016 10:20:33
+type('tr' + "y this")
+#[Out]# str
+# Thu, 10 Nov 2016 10:20:42
+type('tr" + 5)
+# Thu, 10 Nov 2016 10:21:08
+#7. The two inputs where 2 diffrent types of strings 
+
+# Thu, 10 Nov 2016 10:21:26
+#7. The two inputs where 2 diffrent types of varibles and cant combine
+
+# Thu, 10 Nov 2016 10:22:12
+slogan(0)
+# Thu, 10 Nov 2016 10:22:34
+slogan(0)
+# Thu, 10 Nov 2016 10:22:50
+slogan[0]
+#[Out]# 'B'
+# Thu, 10 Nov 2016 10:22:55
+slogan[2]
+#[Out]# 'u'
+# Thu, 10 Nov 2016 10:22:59
+slogan[4]
+#[Out]# ' '
+# Thu, 10 Nov 2016 10:24:13
+#8. we already defined the slogan it makes a chart and numbers each letter starting from 0
+
+# Thu, 10 Nov 2016 10:24:26
+slogan[30]
+# Thu, 10 Nov 2016 10:24:37
+slogan[-2]
+#[Out]# 's'
+# Thu, 10 Nov 2016 10:26:45
+#8. we already defined the slogan it makes a chart and numbers each letter starting from 0.  The negative starts slogan at the end and counts backwards (cant have a negative 0 so it starts at -1). We cant do the 30 because its out of range
+
+# Thu, 10 Nov 2016 10:27:03
+slogan[0:5]
+#[Out]# 'Blue '
+# Thu, 10 Nov 2016 10:27:13
+slogan[5:21]
+#[Out]# 'Springs South is'
+# Thu, 10 Nov 2016 10:27:47
+slogan[:5]
+#[Out]# 'Blue '
+# Thu, 10 Nov 2016 10:27:55
+slogan[7:]
+#[Out]# 'rings South is the best'
+# Thu, 10 Nov 2016 10:28:14
+slogan[6:]
+#[Out]# 'prings South is the best'
+# Thu, 10 Nov 2016 10:29:15
+slogan[5:9]
+#[Out]# 'Spri'
+# Thu, 10 Nov 2016 10:29:36
+slogan[14:]
+#[Out]# 'outh is the best'
+# Thu, 10 Nov 2016 10:29:41
+slogan[13:16]
+#[Out]# 'Sou'
+# Thu, 10 Nov 2016 10:29:44
+slogan[13:18]
+#[Out]# 'South'
+# Thu, 10 Nov 2016 10:31:06
+#8. South = slogan[13:18]  best = slogan[26:]
+
+# Thu, 10 Nov 2016 10:31:11
+slogan[26:]
+#[Out]# 'best'
+# Thu, 10 Nov 2016 10:32:44
+slogan[13:19]
+#[Out]# 'South '
+# Thu, 10 Nov 2016 10:32:56
+#8. South = slogan[13:19]  best = slogan[26:] FIXED
+
+# Thu, 10 Nov 2016 10:33:19
+#9. South = slogan[13:19]  best = slogan[26:] FIXED
+
+# Thu, 10 Nov 2016 10:33:25
+#8. we already defined the slogan it makes a chart and numbers each letter starting from 0.  The negative starts slogan at the end and counts backwards (cant have a negative 0 so it starts at -1). We cant do the 30 because its out of range
+
+# Thu, 10 Nov 2016 10:34:09
+slogan[:22] + 'awesome!'
+#[Out]# 'Blue Springs South is awesome!'
+# Thu, 10 Nov 2016 10:34:53
+lens(slogan)
+# Thu, 10 Nov 2016 10:34:58
+len(slogan)
+#[Out]# 30
+# Thu, 10 Nov 2016 10:35:05
+slogan[29]
+#[Out]# 't'
+# Thu, 10 Nov 2016 10:35:13
+activity = 'theater'
+# Thu, 10 Nov 2016 10:35:24
+len(activity)
+
+
+
+
+#[Out]# 7
+# Thu, 10 Nov 2016 10:35:56
+#11. 8 letters in the word but it starts numbering the letters at 0
+
+# Thu, 10 Nov 2016 10:36:15
+activity[1 : len(activity)-1)
+# Thu, 10 Nov 2016 10:36:29
+activity[1 : len(activity)-1]
+#[Out]# 'heate'
+# Thu, 10 Nov 2016 10:37:38
+#11b. its [1:6] len = 7 minus 1 which is 6 
+
+# Thu, 10 Nov 2016 10:38:18
+'test goo' in 'greatest good for the greatest number!'
+#[Out]# True
+# Thu, 10 Nov 2016 10:39:06
+#12. testing to see if goo apears anywhere in the sentance. It appears in good.
+
+# Thu, 10 Nov 2016 10:39:57
+def = how_eligible(essay)
+# Thu, 10 Nov 2016 10:40:04
+def = how_eligible(essay):
+    
+# Thu, 10 Nov 2016 10:46:49
+def = how_eligible(essay)
+# Thu, 10 Nov 2016 10:46:54
+type(essay)
+# Thu, 10 Nov 2016 10:46:57
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpro2avx.py"# Thu, 10 Nov 2016 10:46:59
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpro2avx.py"
+# Thu, 10 Nov 2016 10:47:00
+type(essay)
+# Thu, 10 Nov 2016 10:47:48
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmp9tcgqp.py"# Thu, 10 Nov 2016 10:47:54
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmp7ea8d6.py"# Thu, 10 Nov 2016 10:48:11
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpxfo6vx.py"# Thu, 10 Nov 2016 10:48:47
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpnfnsx8.py"# Thu, 10 Nov 2016 10:48:57
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmp1rr64r.py"# Thu, 10 Nov 2016 10:49:01
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpedrzot.py"# Thu, 10 Nov 2016 10:49:37
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpzvlzs6.py"# Thu, 10 Nov 2016 10:49:59
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmponzo_u.py"# Thu, 10 Nov 2016 10:50:56
+essay = 'Hello? My name is Chase! Chase says "i hate my life", Why you say dat.'
+# Thu, 10 Nov 2016 10:51:00
+essay
+#[Out]# 'Hello? My name is Chase! Chase says "i hate my life", Why you say dat.'
+# Thu, 10 Nov 2016 10:52:31
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpkbzm7v.py"# Thu, 10 Nov 2016 10:52:39
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmphmqjtj.py"# Thu, 10 Nov 2016 10:52:51
+%run "c:\users\cfd2c~1.scu\appdata\local\temp\tmpwyhl2n.py"# Thu, 10 Nov 2016 10:59:14
+%run C:/Users/c.scully/Documents/Python/chase_scully135.py# Thu, 10 Nov 2016 11:00:03
+%run C:/Users/c.scully/Documents/Python/chase_scully135.py# Thu, 10 Nov 2016 11:00:11
+essay = 'Hello? My name is Chase! Chase says "i hate my life", Why you say dat.'
+# Thu, 10 Nov 2016 11:00:28
+how_eligible(essay)
+#[Out]# 1
+# Thu, 10 Nov 2016 11:01:04
+%logstop

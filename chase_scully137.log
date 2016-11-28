@@ -1,0 +1,65 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+# Fri, 18 Nov 2016 10:22:13
+%logstart -ort chase_scully137.log append
+# Fri, 18 Nov 2016 10:23:04
+%logstart -ort chase_scully137.log -append 
+%cd "C:\Users\c.scully\Documents\Python"
+# Mon, 21 Nov 2016 10:25:14
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:39:23
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:39:32
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:39:38
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:47:50
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:48:00
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:48:18
+roll_hundred_pair
+#[Out]# <function __main__.roll_hundred_pair>
+# Mon, 21 Nov 2016 10:48:19
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:50:11
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:50:12
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:50:40
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:50:42
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:51:11
+picks()
+# Mon, 21 Nov 2016 10:51:14
+picks
+#[Out]# <function __main__.picks>
+# Mon, 21 Nov 2016 10:51:41
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:51:45
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:52:17
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Mon, 21 Nov 2016 10:57:42
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py
+# Mon, 21 Nov 2016 10:57:44
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:57:49
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:57:59
+roll_hundred_pair()
+# Mon, 21 Nov 2016 10:58:19
+%logstop
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py
+%cd "C:\Users\c.scully\Documents\Python"
+# Tue, 22 Nov 2016 10:25:27
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:25:47
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:25:54
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:26:02
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:26:10
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:26:49
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:38:17
+%run C:/Users/c.scully/Documents/Python/chase_scully137.py# Tue, 22 Nov 2016 10:38:21
+dice(7)
+# Tue, 22 Nov 2016 10:39:49
+#conc. developing code withought a loop would make the code way more jumbled up and harder to understand and it could also become inaccurate.
+
+# Tue, 22 Nov 2016 10:51:03
+roll_hundred_pair()
+# Tue, 22 Nov 2016 10:51:49
+%logstop

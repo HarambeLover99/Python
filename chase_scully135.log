@@ -1,0 +1,32 @@
+# IPython log file
+
+%cd "C:\Users\c.scully\Documents\Python"
+%run C:/Users/c.scully/Documents/Python/chase_scully135.py
+%run C:/Users/c.scully/Documents/Python/chase_scully135.py
+how_eligible(essay)
+how_eligible(how are you)
+how_eligible how are you
+how_eligible "how are you"
+how_eligible('how are you')
+#[Out]# 0
+how_eligible(',"?!')
+#[Out]# 4
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+how_eligible('Really, not a compound sentence.')
+#[Out]# 1
+#con1. 41 characters. The question mark is the 40th character
+# Fri, 11 Nov 2016 10:22:28
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+# Fri, 11 Nov 2016 10:22:30
+how_eligible('Really, not a compound sentence.')
+#[Out]# 1
+# Fri, 11 Nov 2016 10:22:36
+#con1. 41 characters. The question mark is the 40th character
+
+# Fri, 11 Nov 2016 10:32:59
+#con3. When something is defined the computer reads the coding from top to bottom, starting with the defined code, it will then run through all the code until it sees everything. things above the define line will not be taken into account. Code is read as seen as typed you have to type perfectly.
+
+# Fri, 11 Nov 2016 10:53:04
+%logstop

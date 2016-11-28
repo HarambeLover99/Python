@@ -1,0 +1,42 @@
+# IPython log file
+
+# Wed, 16 Nov 2016 10:30:44
+numbers = [1, 2, 3, 4]
+# Wed, 16 Nov 2016 10:31:30
+for item in numbers:
+    print(item**2)
+    
+# Wed, 16 Nov 2016 10:34:45
+help(range)
+# Wed, 16 Nov 2016 10:36:40
+range(4)
+#[Out]# [0, 1, 2, 3]
+# Wed, 16 Nov 2016 10:37:08
+range(20, 12, -3)
+#[Out]# [20, 17, 14]
+# Wed, 16 Nov 2016 10:37:21
+range(5, 19, 2)
+#[Out]# [5, 7, 9, 11, 13, 15, 17]
+# Wed, 16 Nov 2016 10:41:05
+range(9, 8, 7)
+#[Out]# []
+# Wed, 16 Nov 2016 10:41:12
+range(10, 8, 7)
+#[Out]# []
+# Wed, 16 Nov 2016 10:41:20
+range(10, 8, 17)
+#[Out]# []
+# Wed, 16 Nov 2016 10:45:51
+range(4, 10, 2)
+#[Out]# [4, 6, 8]
+# Wed, 16 Nov 2016 10:45:56
+range(4, 12, 2)
+#[Out]# [4, 6, 8, 10]
+# Wed, 16 Nov 2016 10:46:06
+#6. range(4, 12, 2)
+
+# Wed, 16 Nov 2016 10:49:24
+%run "C:/Users/c.scully/Documents/Python/%logstart -ort chase_scully137.py"# Wed, 16 Nov 2016 10:49:29
+days()
+# Wed, 16 Nov 2016 10:49:40
+days()
